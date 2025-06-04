@@ -19,11 +19,11 @@ const add = (e) => {
             <input
                 type="text"
                 placeholder="Write Todo..."
-                className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 text-black bg-white/20 py-1.5"
+                className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 text-black font-bold bg-white/20 py-1.5"
                 value={todo}
                 onChange={(e) => setTodo(e.target.value)}
             />
-            <button type="submit" className="px-3 py-1 text-white bg-green-600 rounded-r-lg shrink-0">
+            <button type="submit" className="px-3 py-1 text-white bg-green-600 rounded-r-lg cursor-pointer shrink-0">
                 Add
             </button>
         </form>
